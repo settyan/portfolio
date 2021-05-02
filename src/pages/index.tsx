@@ -10,12 +10,12 @@ const Index: React.VFC = () => {
     <Head>
       <title>Sena Suzuki</title>
       <meta name="description" content="Frontend Engineer"/>
-      <meta property="og:url" content="https://settyan.me" />
+      <meta property="og:url" content="https://settyan.vercel.app/" />
       <meta property="og:type" content=" website" />
       <meta property="og:title" content="Sena Suzuki" />
       <meta property="og:description" content="Frontend Engineer" />
       <meta property="og:site_name" content="Sena Suzuki" />
-      <meta property="og:image" content="https://settyan.me/ogp.png" />
+      <meta property="og:image" content="https://settyan.vercel.app/ogp.png" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
     <div className={styles.Wrapper}>
