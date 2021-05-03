@@ -11,7 +11,7 @@ class MyDocument extends Document {
     return (
       <Html lang="ja">
         <Head prefix="og: http://ogp.me/ns#">
-            <link rel="canonical" href="https://settyan.me"/>
+            <link rel="canonical" href="https://www.settyan.me"/>
         </Head>
         <body>
           <Main />
