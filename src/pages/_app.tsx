@@ -1,14 +1,10 @@
-import React from "react"
-import "normalize.css"
-import "../styles/globals.css"
+import React from "react";
+import "normalize.css";
+import "@/styles/globals.css";
+import { AppProps } from "next/dist/next-server/lib/router/router";
 
-type Props = {
-  Component: React.VFC;
-  pageProps: JSX.IntrinsicAttributes;
-}
+const MyApp = (props: AppProps): JSX.Element => {
+  return <props.Component {...props.pageProps} />;
+};
 
-const MyApp: React.VFC<Props> = ({ Component, pageProps }: Props) => {
-  return <Component {...pageProps} />
-}
-
-export default MyApp
+export default MyApp;

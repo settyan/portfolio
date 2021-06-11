@@ -1,10 +1,10 @@
-import React from "react"
-import Head from 'next/head'
-import Image from 'next/image'
+import React from "react";
+import Head from "next/head";
+import Image from "next/image";
 
-import styles from "./index.module.css"
+import styles from "./index.module.css";
 
-const Mainvisual: React.VFC = () => {
+export const Mainvisual = (): JSX.Element => {
   return (
     <div className={styles.Container}>
       <div className={styles.Inner}>
@@ -20,17 +20,20 @@ const Mainvisual: React.VFC = () => {
           </div>
         </div>
         <div className={styles.Main}>
-            <h1 className={styles.Title}>
-                <Image src="/name@2x.png" layout="responsive" width="1398" height="522" unoptimized={true} alt="Sena Suzuki" />
-            </h1>
+          <h1 className={styles.Title}>
+            <Image
+              src="/name@2x.png"
+              layout="responsive"
+              width="1398"
+              height="522"
+              unoptimized={true}
+              alt="Sena Suzuki"
+            />
+          </h1>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Mainvisual
-
-export {
-    Mainvisual
-}
+export default Mainvisual;
