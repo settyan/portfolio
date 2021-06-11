@@ -5,13 +5,12 @@
   width: 100%;
   height: 100%;
   padding: 3.6vw 8vw;
-  background: url("/me@2x.png") center bottom -26% / auto 130% no-repeat;
+  background: url("/me@2x.png") center 20% / auto 130% no-repeat;
 }
 @media screen and (max-width: 900px) {
   .Container {
     padding: 4vw 3vw;
     background-size: auto 120%;
-    background-position: center bottom -20%;
   }
 }
 .Inner {
