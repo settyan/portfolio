@@ -10,8 +10,8 @@
 @media screen and (max-width: 900px) {
   .Container {
     padding: 4vw 3vw;
-    background-size: auto 120vh;
-    background-position: center bottom -20vh;
+    background-size: auto 120vmin;
+    background-position: center bottom -20vmin;
   }
 }
 .Inner {
