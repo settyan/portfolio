@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import { Mainvisual } from "@/components/mainvisual";
 
-const Index: React.VFC = () => {
+const Index = (): JSX.Element => {
   return (
     <>
       <Head>
