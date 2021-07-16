@@ -1,7 +1,7 @@
 import React from "react";
 
 interface LayoutProps {
-  readonly children: React.ComponentType<{}>;
+  readonly children: React.ReactNode
 }
 
 export const DefaultLayout = (props: LayoutProps): JSX.Element => {
