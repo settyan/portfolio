@@ -1,7 +1,8 @@
 import React from "react";
 import Head from "next/head";
 
-import { Mainvisual } from "@/components/mainvisual";
+import { Mainvisual } from "@/components/organisms/mainvisual";
+import {getLayout} from "@/layouts/default-layout"
 
 const Index = (): JSX.Element => {
   return (
@@ -17,11 +18,14 @@ const Index = (): JSX.Element => {
         <meta property="og:site_name" content="Sena Suzuki" />
         <meta property="og:image" content="https://settyan.me/ogp.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="theme-color" content="#eae8e5" />
       </Head>
-      <Mainvisual />
+      <div>
+        <Mainvisual />
+      </div>
     </>
   );
 };
+
+Index.getLayout = getLayout
 
 export default Index;
