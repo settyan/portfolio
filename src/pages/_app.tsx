@@ -1,7 +1,7 @@
 import React from "react";
 import "normalize.css";
 import "@/styles/globals.css";
-import { AppProps } from "next/app";
+import type { AppProps } from "next/app";
 
 const MyApp = (props: AppProps): JSX.Element => {
   // @ts-ignore
