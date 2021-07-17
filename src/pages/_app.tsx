@@ -1,7 +1,7 @@
 import React from "react";
 import "normalize.css";
 import "@/styles/globals.css";
-import { AppProps } from "next/dist/next-server/lib/router/router";
+import type { AppProps } from "next/app";
 
 const MyApp = (props: AppProps): JSX.Element => {
   const getLayout = (props.Component as any).getLayout || ((children) => children);
