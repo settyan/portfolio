@@ -4,8 +4,7 @@ import "@/styles/globals.css";
 import { AppProps } from "next/dist/next-server/lib/router/router";
 
 const MyApp = (props: AppProps): JSX.Element => {
-  // @ts-ignore
-  const getLayout = props.Component.getLayout || ((children) => children);
+  const getLayout = (props.Component as any).getLayout || ((children) => children);
 
   return getLayout(<props.Component {...props.pageProps} />);
 };
