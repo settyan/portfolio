@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import { Mainvisual } from "@/components/organisms/mainvisual";
-import { getDefaultLayout } from "@/layouts/default-layout";
+import { getLayout } from "@/layouts/default-layout";
 
 const Index = (): JSX.Element => {
   return (
@@ -26,6 +26,6 @@ const Index = (): JSX.Element => {
   );
 };
 
-Index.getLayout = getDefaultLayout;
+Index.getLayout = getLayout;
 
 export default Index;

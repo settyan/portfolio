@@ -8,7 +8,7 @@ export const DefaultLayout = (props: LayoutProps): JSX.Element => {
   return <div>{props.children}</div>;
 };
 
-export const getDefaultLayout = (children) => (
+export const getLayout = (children) => (
   <DefaultLayout>{children}</DefaultLayout>
 );
 
